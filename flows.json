@@ -1,0 +1,675 @@
+[
+    {
+        "id": "b5a17faceb0fc535",
+        "type": "tab",
+        "label": "click",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e8dbd6a1300cf580",
+        "type": "tab",
+        "label": "automatico",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ea17646ec7c725cd",
+        "type": "tab",
+        "label": "pontos",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "fed84f1c12f3c70a",
+        "type": "ui_tab",
+        "name": "dados",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "43f4cea04a9d69df",
+        "type": "ui_group",
+        "name": "entradas",
+        "tab": "fed84f1c12f3c70a",
+        "order": 1,
+        "disp": false,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e9880093b6449d71",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "21311aecaa3d2c35",
+        "type": "ui_group",
+        "name": "melhorias",
+        "tab": "fed84f1c12f3c70a",
+        "order": 3,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fa3d54ac0b782a8c",
+        "type": "ui_spacer",
+        "z": "b5a17faceb0fc535",
+        "name": "spacer",
+        "group": "21311aecaa3d2c35",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a18beb616123d230",
+        "type": "ui_spacer",
+        "z": "b5a17faceb0fc535",
+        "name": "spacer",
+        "group": "e87b7135af73647a",
+        "order": 3,
+        "width": "1",
+        "height": "1"
+    },
+    {
+        "id": "fd4235555f835cbd",
+        "type": "ui_group",
+        "name": "Group 3",
+        "tab": "fed84f1c12f3c70a",
+        "order": 2,
+        "disp": false,
+        "width": "17",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1fed416143f3fc8f",
+        "type": "ui_spacer",
+        "z": "b5a17faceb0fc535",
+        "name": "spacer",
+        "group": "fd4235555f835cbd",
+        "order": 3,
+        "width": "1",
+        "height": "1"
+    },
+    {
+        "id": "5f57aa5bc4bdf424",
+        "type": "ui_spacer",
+        "z": "b5a17faceb0fc535",
+        "name": "spacer",
+        "group": "43f4cea04a9d69df",
+        "order": 2,
+        "width": "7",
+        "height": "2"
+    },
+    {
+        "id": "53b8d1528de64c27",
+        "type": "ui_spacer",
+        "z": "b5a17faceb0fc535",
+        "name": "spacer",
+        "group": "43f4cea04a9d69df",
+        "order": 4,
+        "width": "7",
+        "height": "4"
+    },
+    {
+        "id": "abb32d4d3b9d6d41",
+        "type": "function",
+        "z": "b5a17faceb0fc535",
+        "name": "",
+        "func": "if(global.get('pontos') == null){\n    var cont = 1;\n   global.set(('pontos'), 1);\n   global.set(('ppc'), 1);\n}else{\n    cont = global.get('pontos');\n    cont = cont + global.get('ppc');\n    global.set(('pontos'), cont);\n}\nmsg.payload = global.get('pontos');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 120,
+        "wires": [
+            [
+                "72175e9a313bc3d6"
+            ]
+        ]
+    },
+    {
+        "id": "ce997f2923d76916",
+        "type": "ui_button",
+        "z": "b5a17faceb0fc535",
+        "name": "",
+        "group": "43f4cea04a9d69df",
+        "order": 3,
+        "width": "7",
+        "height": "7",
+        "passthru": false,
+        "label": "click",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 290,
+        "y": 120,
+        "wires": [
+            [
+                "abb32d4d3b9d6d41"
+            ]
+        ]
+    },
+    {
+        "id": "3ae36b262e9f56a8",
+        "type": "inject",
+        "z": "b5a17faceb0fc535",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "custoc",
+                "v": "",
+                "vt": "num"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "custos",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "num",
+        "x": 270,
+        "y": 60,
+        "wires": [
+            [
+                "4ded49a75a7a3566"
+            ]
+        ]
+    },
+    {
+        "id": "4ded49a75a7a3566",
+        "type": "function",
+        "z": "b5a17faceb0fc535",
+        "name": "",
+        "func": "global.set(('pontos'), null);\n   global.set(('ppc'), 1);\n   global.set(('pps'), 0);\n   global.set(('cppc'), 10);\n   global.set(('cpps'), 20);\n   msg.payload = 0\n   msg.custoc = global.get('ccpc')\n   msg.custos = global.get('ccps')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 60,
+        "wires": [
+            [
+                "4784572753bedbb9",
+                "5d4cada06cfe5f46"
+            ]
+        ]
+    },
+    {
+        "id": "4784572753bedbb9",
+        "type": "ui_button",
+        "z": "b5a17faceb0fc535",
+        "name": "",
+        "group": "21311aecaa3d2c35",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "+ 1 ponto por click | Custo: {{msg.custoc.toFixed(2)}}",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{msg.compro}}",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 180,
+        "wires": [
+            [
+                "fef71b57eb476a07"
+            ]
+        ]
+    },
+    {
+        "id": "fef71b57eb476a07",
+        "type": "function",
+        "z": "b5a17faceb0fc535",
+        "name": "",
+        "func": "if(global.get('pontos') >= global.get('cppc')){\n    global.set(('ppc'), global.get('ppc') + 1);\n     global.set(('pontos'), global.get('pontos') - global.get('cppc'));\n     global.set(('cppc'), global.get('cppc') + ((global.get('cppc')/100)*20))\n     msg.compro = \"green\"\n}else{\n    msg.compro = \"red\"\n}\n\nmsg.payload = global.get('pontos');\nmsg.custoc = global.get('cppc');\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 180,
+        "wires": [
+            [
+                "4784572753bedbb9",
+                "e21984970c23a212",
+                "d4e67d32c51056d1"
+            ]
+        ]
+    },
+    {
+        "id": "e21984970c23a212",
+        "type": "delay",
+        "z": "b5a17faceb0fc535",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.25",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 590,
+        "y": 200,
+        "wires": [
+            [
+                "4e3f641991da15f0"
+            ]
+        ]
+    },
+    {
+        "id": "4e3f641991da15f0",
+        "type": "function",
+        "z": "b5a17faceb0fc535",
+        "name": "",
+        "func": "msg.compro = null;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 200,
+        "wires": [
+            [
+                "4784572753bedbb9"
+            ]
+        ]
+    },
+    {
+        "id": "5d4cada06cfe5f46",
+        "type": "link out",
+        "z": "b5a17faceb0fc535",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "5cb71a86b9617fe6",
+            "80df1a57bb3cef94"
+        ],
+        "x": 635,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "72175e9a313bc3d6",
+        "type": "link out",
+        "z": "b5a17faceb0fc535",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "61295474033086e5",
+            "5cb71a86b9617fe6"
+        ],
+        "x": 525,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "d4e67d32c51056d1",
+        "type": "link out",
+        "z": "b5a17faceb0fc535",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "61295474033086e5",
+            "5cb71a86b9617fe6"
+        ],
+        "x": 525,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "2f8f92d0545b2968",
+        "type": "function",
+        "z": "e8dbd6a1300cf580",
+        "name": "",
+        "func": "    var cont = global.get('pontos');\n    cont = cont + global.get('pps');\n    global.set(('pontos'), cont);\n\nmsg.payload = global.get('pontos');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 180,
+        "wires": [
+            [
+                "8d7e090df2666d1f",
+                "150f42e36c6878bf"
+            ]
+        ]
+    },
+    {
+        "id": "8d7e090df2666d1f",
+        "type": "link out",
+        "z": "e8dbd6a1300cf580",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "5cb71a86b9617fe6"
+        ],
+        "x": 545,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "60c17adb44aea57c",
+        "type": "ui_button",
+        "z": "e8dbd6a1300cf580",
+        "name": "1",
+        "group": "21311aecaa3d2c35",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "+ 0.1 ponto por segundo | Custo: {{msg.custos.toFixed(2)}}",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{msg.compro}}",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 320,
+        "wires": [
+            [
+                "38ce4ce4db8ecc84"
+            ]
+        ]
+    },
+    {
+        "id": "38ce4ce4db8ecc84",
+        "type": "function",
+        "z": "e8dbd6a1300cf580",
+        "name": "",
+        "func": "if(global.get('pontos') >= global.get('cpps')){\n    global.set(('pps'), global.get('pps') + 0.1);\n     global.set(('pontos'), global.get('pontos') - global.get('cpps'));\n     global.set(('cpps'), global.get('cpps') + ((global.get('cpps')/100)*20))\n     msg.compro = \"green\"\n}else{\n    msg.compro = \"red\"\n}\n\nmsg.payload = global.get('pontos');\nmsg.custos = global.get('cpps');\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 320,
+        "wires": [
+            [
+                "60c17adb44aea57c",
+                "97c999fc5a315349",
+                "c18a6cb45736e7aa"
+            ]
+        ]
+    },
+    {
+        "id": "97c999fc5a315349",
+        "type": "delay",
+        "z": "e8dbd6a1300cf580",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.25",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 610,
+        "y": 320,
+        "wires": [
+            [
+                "20c54ff1d38496f8"
+            ]
+        ]
+    },
+    {
+        "id": "20c54ff1d38496f8",
+        "type": "function",
+        "z": "e8dbd6a1300cf580",
+        "name": "",
+        "func": "msg.compro = null;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 320,
+        "wires": [
+            [
+                "60c17adb44aea57c"
+            ]
+        ]
+    },
+    {
+        "id": "c18a6cb45736e7aa",
+        "type": "link out",
+        "z": "e8dbd6a1300cf580",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "61295474033086e5",
+            "5cb71a86b9617fe6"
+        ],
+        "x": 525,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "150f42e36c6878bf",
+        "type": "delay",
+        "z": "e8dbd6a1300cf580",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 420,
+        "y": 240,
+        "wires": [
+            [
+                "2f8f92d0545b2968"
+            ]
+        ]
+    },
+    {
+        "id": "80df1a57bb3cef94",
+        "type": "link in",
+        "z": "e8dbd6a1300cf580",
+        "name": "ganhar ponto",
+        "links": [
+            "5d4cada06cfe5f46"
+        ],
+        "x": 45,
+        "y": 240,
+        "wires": [
+            [
+                "2f8f92d0545b2968",
+                "60c17adb44aea57c"
+            ]
+        ]
+    },
+    {
+        "id": "12ebd4e243dd796b",
+        "type": "ui_text",
+        "z": "ea17646ec7c725cd",
+        "group": "43f4cea04a9d69df",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "pontos",
+        "format": "{{msg.payload.toFixed(2)}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 370,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "5cb71a86b9617fe6",
+        "type": "link in",
+        "z": "ea17646ec7c725cd",
+        "name": "pontos",
+        "links": [
+            "5d4cada06cfe5f46",
+            "72175e9a313bc3d6",
+            "8d7e090df2666d1f",
+            "c18a6cb45736e7aa",
+            "d4e67d32c51056d1"
+        ],
+        "x": 285,
+        "y": 160,
+        "wires": [
+            [
+                "12ebd4e243dd796b"
+            ]
+        ]
+    }
+]
